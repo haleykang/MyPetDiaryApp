@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Pet Diary</string>
+    <string name="main">오늘 반려동물과 어떤 하루를 보냈나요?\n당신의 일상을 기록하고 공유하세요.</string>
+    <string name="app_main_name">My Pet Diary\n나의 반려동물 이야기</string>
+</resources>
