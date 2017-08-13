@@ -113,7 +113,7 @@ public class ListActivity extends AppCompatActivity {
         @Override
         public void run() {
             // 1) 요청 주소
-            String addr = "http://192.168.25.19:8080/mypet/androidlist?";
+            String addr = "http://192.168.25.46:8080/mypet/androidlist?";
             addr += "id=" + id;
             Log.v(TAG, "요청주소 : " + addr);
 
@@ -271,6 +271,8 @@ public class ListActivity extends AppCompatActivity {
                 // 아이템 리스트뷰의 고유주소 저장
                 holder.titleTv = (TextView) view.findViewById(R.id.title_tv);
                 holder.dateTv = (TextView) view.findViewById(R.id.regdate_tv);
+
+
                 // 뷰에 holder 저장
                 view.setTag(holder);
             } else {
@@ -292,6 +294,7 @@ public class ListActivity extends AppCompatActivity {
 
         TextView titleTv = null;
         TextView dateTv = null;
+
     }
 
 

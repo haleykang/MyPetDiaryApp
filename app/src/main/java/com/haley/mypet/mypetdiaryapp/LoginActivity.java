@@ -65,7 +65,7 @@ public class LoginActivity extends AppCompatActivity {
             Log.v(TAG, "LoginThread - run()");
 
             // 1) 서버 요청 주소
-            String addr = "http://192.168.25.19:8080/mypet/androidlogin?";
+            String addr = "http://192.168.25.46:8080/mypet/androidlogin?";
             // 2) 파라미터로 넘길 아이디와 비밀번호 추가
             addr += "id=" + id;
             addr += "&pw=" + pw;
